@@ -58,7 +58,7 @@ jobs:
           cd export/release/ios/build/Release-iphoneos
           mkdir Payload
           mv *.app Payload
-          zip -r CodenameEngine.ipa Payload
+          zip -r VsDave.ipa Payload
       - name: Upload Artifact
         if: ${{ success() }}
         uses: actions/upload-artifact@main
